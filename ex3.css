@@ -1,0 +1,15 @@
+div{
+    background-color:greenyellow ;
+    display: inline-block;
+    border: 2px solid;
+    padding: 10px;
+
+
+}
+div:nth-child(6n+4),
+:nth-child(6n+5),
+:nth-child(6n+6)
+{
+
+    background:blue ;
+}

@@ -1,0 +1,10 @@
+div{
+    display: inline-block;
+    border: solid;
+    padding: 20px;
+background-color: aqua;
+}
+div:nth-child(-n+9){
+    background-color: orange;
+}
+:last-child

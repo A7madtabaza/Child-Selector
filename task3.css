@@ -1,0 +1,11 @@
+div{
+ display: inline-block;
+   border: 2px solid;
+    padding: 10px;
+    position: relative;
+background-color: yellow;
+}
+div:nth-child(even){
+top: 30px;
+background-color:green ;
+}

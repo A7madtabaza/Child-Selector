@@ -1,0 +1,11 @@
+div{
+    display: inline-block;
+    border: solid;
+    padding: 20px;
+}
+div:nth-child(4n+4),
+div:first-child
+
+{
+    background-color: orange;
+}

@@ -1,0 +1,8 @@
+div{
+    display: inline-block;
+    border: solid;
+    padding: 20px;
+}
+div:nth-child(n+8){
+    background-color: orange;
+}
